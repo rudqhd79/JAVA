@@ -3,6 +3,7 @@ package test.ch06;
 public class Car {
 
 	Car(String model) {
+		//1. 필드 : 객체의 데이터를 저장
 //		this.model = model;
 		this(model, "은색", 250);
 	}
@@ -28,4 +29,11 @@ public class Car {
 	boolean start; // 시동여부
 	int maxSpeed = 350;
 	int speed;
+	static int numbering = 0;
+	
+	
+	
+	Car () {
+		numbering++;
+	}
 }
