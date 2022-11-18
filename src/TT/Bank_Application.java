@@ -15,16 +15,17 @@ public class Bank_Application {
 		System.out.print("계좌번호 : ");
 		String ACC = scan.next();
 		System.out.print("계좌주 : ");
-		String name = scan.next();
+		String Name = scan.next();
 		System.out.print("초기입금액 : ");
-		int deposit = scan.nextInt();
+		int Deposit = scan.nextInt();
 
-		Bank_Account newAccount = new Bank_Account(ACC, name, deposit);
+		Bank_Account newAccount = new Bank_Account(ACC, Name, Deposit);
 		// 계좌 번호, 계좌주, 초기입금액 입력하면 계좌가 생성된다는 것을 의미한다
 		for (int i = 0; i < accountArray.length; i++) {
 			if (accountArray[i] == null) {
 				accountArray[i] = newAccount;
 				System.out.println("결과:   계좌가 생성되었습니다.");
+				System.out.println("계좌번호" + ACC + "\n" + "계좌주" + Name + "\n" + "입금액" + Deposit);
 				break;
 			}
 		}
