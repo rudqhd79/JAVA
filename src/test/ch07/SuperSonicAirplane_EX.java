@@ -11,5 +11,4 @@ public class SuperSonicAirplane_EX {
 		sa.fly();
 
 	}
-
 }
