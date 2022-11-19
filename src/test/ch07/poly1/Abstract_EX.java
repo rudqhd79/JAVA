@@ -1,4 +1,4 @@
-package test.ch07.poly;
+package test.ch07.poly1;
 
 public class Abstract_EX {
 

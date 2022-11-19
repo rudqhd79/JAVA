@@ -1,4 +1,4 @@
-package test.ch07.poly;
+package test.ch07.poly2;
 
 public class KumhoTire extends Tire {
 

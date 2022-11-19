@@ -1,4 +1,4 @@
-package test.ch07.poly;
+package test.ch07.poly3;
 
 public class Taxi extends Vehicle {
 

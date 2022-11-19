@@ -1,4 +1,4 @@
-package test.ch07.poly;
+package test.ch07.poly4;
 
 public class InstanceOf_EX {
 

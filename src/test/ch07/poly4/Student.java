@@ -1,4 +1,4 @@
-package test.ch07.poly;
+package test.ch07.poly4;
 
 //Person은 슈퍼클래스 Student는 서브클래스
 public class Student extends Person {

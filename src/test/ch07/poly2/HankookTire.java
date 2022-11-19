@@ -1,4 +1,4 @@
-package test.ch07.poly;
+package test.ch07.poly2;
 
 public class HankookTire extends Tire {
 
@@ -8,4 +8,4 @@ public class HankookTire extends Tire {
 		System.out.println("한국타이어가 빠르게 회전합니다.");
 	}
 
-}
+	}

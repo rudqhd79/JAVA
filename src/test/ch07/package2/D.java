@@ -11,7 +11,12 @@ public class D extends A {
 	
 	public void method1() {
 		//A클래스의 필드를 호출, 값 선언
+		
+		//super로 부모 클래스 생성자를 호출도 가능하다
+		//super대신 this로도 사용할 수 있다
 		super.field = "2";
+		//or
+		this.field = "3";
 		super.method();
 		
 		/*상속을 받으면 super말고도
