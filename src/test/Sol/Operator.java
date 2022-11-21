@@ -1,8 +1,8 @@
-package test.ch03;
+package test.Sol;
 
 import java.util.Scanner;
 
-public class test_sol {
+public class Operator {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub

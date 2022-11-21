@@ -19,6 +19,5 @@ public class SuperSonicAirplane extends Airplane {
 			// super.메소드명() => 부모클래스의 메소드 실행
 			super.fly();
 		}
-		
 	}
 }

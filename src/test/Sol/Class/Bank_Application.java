@@ -1,4 +1,4 @@
-package TT;
+package Class_Sol;
 
 import java.util.Scanner;
 
@@ -44,8 +44,23 @@ public class Bank_Application {
 	}
 
 	public static void deposit() {
+		System.out.println("———————————");
+		System.out.println("예금");
+		System.out.println("———————————");
+		System.out.println("계좌번호를 입력해 주세요");
+		String ACC = scan.next();
+		System.out.println("예금액을 입력해 주세요");
+		int deposit = scan.nextInt();
 		
+		Bank_Account newAccount = findnewAccount(ACC);
+		if (ACC == null) {
+			System.out.println("계좌번호가 맞지 않습니다.");
+			return;
+		}
+		bank.setACC(bank.getACC() - )
+			
 	}
+
 
 	public static void withdraw() {
 	}

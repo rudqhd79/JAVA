@@ -1,6 +1,6 @@
-package test.ch05;
+package test.Sol;
 
-public class Test05 {
+public class Reference {
 	public static void main(String[] args) {
 		/* 7번
 		int[] arr = {10, 20, 30, 40, 50};

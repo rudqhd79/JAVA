@@ -1,6 +1,6 @@
-package test.ch04;
+package test.Sol;
 
-public class test_sol {
+public class ConditionLoop {
 
 	public static void main(String[] args) {
 //		int x = 11;

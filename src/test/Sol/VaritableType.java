@@ -1,6 +1,6 @@
-package test.ch02;
+package test.Sol;
 
-public class sol {
+public class VaritableType {
 
 	public static void main(String[] args) {
 		System.out.printf("이름 : %s", "감자바");

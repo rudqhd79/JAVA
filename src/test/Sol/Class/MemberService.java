@@ -1,4 +1,4 @@
-package TT;
+package Class_Sol;
 //---------------------------------------------15번문제-------------------------------------------------
 public class MemberService {
 	String id;

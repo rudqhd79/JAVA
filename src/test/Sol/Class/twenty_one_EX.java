@@ -1,4 +1,4 @@
-package TT;
+package Class_Sol;
 
 public class twenty_one_EX {
 
