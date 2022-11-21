@@ -1,4 +1,4 @@
-package Class_Sol;
+package test.Sol.Class;
 
 import java.util.Scanner;
 
@@ -51,22 +51,40 @@ public class Bank_Application {
 		String ACC = scan.next();
 		System.out.println("예금액을 입력해 주세요");
 		int deposit = scan.nextInt();
-		
+
+		// findnewAccount로 찾아온 계좌 객체 저장
 		Bank_Account newAccount = findnewAccount(ACC);
-		if (ACC == null) {
-			System.out.println("계좌번호가 맞지 않습니다.");
-			return;
-		}
-		bank.setACC(bank.getACC() - )
-			
+
+		int AccountBallance = newAccount.getDeposit();
+		newAccount.setDeposit(AccountBallance + deposit);
 	}
 
+	public static Bank_Account findnewAccount(String a) {
+		Bank_Account bankAccount = null;
+		for (Bank_Account ACC_item : accountArray) {
+			if (ACC_item.getACC().equals(a)) {
+				bankAccount = ACC_item;
+				break;
+			}
+		}
+		return bankAccount;
+	}
 
 	public static void withdraw() {
+		System.out.println("———————————");
+		System.out.println("출금");
+		System.out.println("———————————");
+		System.out.println("계좌번호를 입력해 주세요");
+		String ACC = scan.next();
+		System.out.println("출금액을 입력해 주세요");
+		int withdraw = scan.nextInt();
+
+		Bank_Account newAccount = findnewAccount(ACC);
+		int AccountBallance = newAccount.getDeposit();
+		newAccount.setDeposit(AccountBallance - withdraw);
 	}
 
 	public static void main(String[] args) {
-
 		boolean run = true;
 		while (run) {
 			System.out.println("------------------------------------------------------------");
@@ -79,7 +97,6 @@ public class Bank_Application {
 			switch (a) {
 			case 1:
 				createAccount();
-
 				break;
 			case 2:
 				accountList();

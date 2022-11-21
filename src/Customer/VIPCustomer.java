@@ -28,16 +28,16 @@ public class VIPCustomer extends Customer {
 	public int calcPrice(int price) {
 		// 보너스 포인트는 누적합산이 되어야 한다
 		bonusPoint += (price * bonusRatio); // 보너스포인트를 적립하는 것
-		return price - (int)(price * saleRatio);
+		return price - (int) (price * saleRatio);
 	}
 
 	@Override
 	public String showCustomerInfo() {
-		//굳이 입력할 필요없이 showCustomerInof()메소드를 실행시킨다
+		// 굳이 입력할 필요없이 showCustomerInof()메소드를 실행시킨다
 		return super.showCustomerInfo() + ", 담당 상담원 아이디: " + agentID;
 	}
 
-	//상담원이 VIP 등급에는 따로 나뉘기 때문에 만들어준다
+	// 상담원이 VIP 등급에는 따로 나뉘기 때문에 만들어준다
 	public int getAgentID() {
 		return agentID;
 	}
