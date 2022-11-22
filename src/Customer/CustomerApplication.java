@@ -66,7 +66,7 @@ public class CustomerApplication {
 	// 여기서 Customer는 리턴받는 데이터 타입이 Customer
 	public static Customer findCustomer(int CustomerID) {
 		Customer ResultCustomer = null;
-		
+
 		for (Customer customer : customerList) {
 			// 해당 객체의 customerID와 매개변수로 받아온 customerID가 같으면
 			if (customer.getCustomerID() == CustomerID) {
