@@ -39,7 +39,7 @@ public class CustomerApplication {
 
 		// id로 고객찾기
 		// Customer 타입에 customer는 고객찾는 값에 10050을 넣으면 10050의 고객정보를 출력한다
-		Customer customer = findCustomer(10050);
+		Customer customer = findCustomer(10030);
 
 		// 모든 고객정보 출력
 		// 고객 정보가 customer에서 받아서 일치해야 하지만
@@ -49,7 +49,7 @@ public class CustomerApplication {
 			System.out.println("존재하지 않는 회원입니다.");
 		} else {
 			// 고객의 실제 지불금액 보너스 포인트
-			showPriceBonus(customer, 10000);
+			showPriceBonus(customer, 15000);
 		}
 	}
 
