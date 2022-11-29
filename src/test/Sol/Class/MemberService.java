@@ -1,4 +1,4 @@
-package Class_Sol;
+package test.Sol.Class;
 //---------------------------------------------15번문제-------------------------------------------------
 public class MemberService {
 	String id;

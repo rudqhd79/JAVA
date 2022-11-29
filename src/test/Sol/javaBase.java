@@ -70,6 +70,10 @@ public class javaBase {
 		
 		//13번 답 : 4번 (Math.round(5.7)을 반올림하면 6.0이 아닌 6이 나온다)
 		
+		//16번 :  xxxx년 xx월 xx일 x요일 xx시 xx분 (처럼 나오게 하시오)
+		//답 :
+		
+		
 	}
 
 }

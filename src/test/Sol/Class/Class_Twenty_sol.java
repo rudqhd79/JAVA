@@ -1,4 +1,4 @@
-package Class_Sol;
+package test.Sol.Class;
 
 public class Class_Twenty_sol {
 

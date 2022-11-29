@@ -2,7 +2,7 @@ package test.Sol.Class;
 
 public class Bank_Account {
 	// 필드
-	private String ACC; // 계좌번호
+	private String ACC; // 계좌번호( "-"가 들어가면 숫자만 있어도 문자열로 들어감)
 	private String name; // 계좌주
 	private int deposit; // 초기입금액
 
